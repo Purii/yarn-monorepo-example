@@ -1,0 +1,9 @@
+{
+    "name": "@monorepo/package-a",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@monorepo/package-b": "workspace:*",
+        "eslint": "8.24.0"
+    }
+}
